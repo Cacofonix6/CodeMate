@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/stylesheet.xsl"?><Report>
+  <Files>
+    <File>
+      <Name>Controller.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>145.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Controller</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>27.0</Value>
+              <Recommendation>
+      * Coupling may be too high, try abstracting.
+      * Controller calls: (String) (Utility) (File) (ParserWrapper) (GUI) (List&lt;FileData&gt;) (Set&lt;URL&gt;) (ClasspathHelper) (Reflections) (ConfigurationBuilder) (List&lt;MetricCalculator&gt;) (Class&lt;&gt;) (Throwable) (Collections) (MetricCalculator) (Interpreter) (CompilationUnit) (FileData) (ASTNode) (AbstractTypeDeclaration) (TypeDeclaration) (MethodDeclaration) (TypeData) (ArrayList&lt;&gt;) (HashSet&lt;&gt;) (SubTypesScanner) (MethodData) 
+      * Is called by: (GUI) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>beginAnalysis</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 42) (Class GUI.java - line 132) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>12.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>28.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>calculateMetrics</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Controller.java - line 67) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>12.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>23.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>populateFileData</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Controller.java - line 66) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>20.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>21.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>GUI.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>6.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>144.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>GUI</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>6.0</Value>
+              <Recommendation>
+      * GUI calls: (String) (Controller) (Interpreter) (File) (Scanner) (PrintStream) 
+      * Is called by: (Controller) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>main</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>14.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>startParser</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 27) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>8.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>getDir</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 23) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>21.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>3.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>checkForFile</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 24) (Class GUI.java - line 120) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>20.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>consoleStart</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 30) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>13.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>27.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>printText</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>8.0</Value>
+                  <Recommendation>Detected Code Smell: Change Preventer - Method is called most and tightly coupled to rest of design. Changes will break most other locations in program
+      * Recommendation: Consider merging class of this method with classes calling it most if not same class already, as they might implement a single responsibility
+      * Is called by: (Class Controller.java - line 60) (Class GUI.java - line 40) (Class GUI.java - line 43) (Class GUI.java - line 102) (Class GUI.java - line 109) (Class GUI.java - line 122) (Class GUI.java - line 127) (Class GUI.java - line 133) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Interpreter.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>5.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>364.0</Value>
+          <Recommendation>Prorgram size is above the average of 217.66667 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Interpreter</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>33.0</Value>
+              <Recommendation>
+      * Coupling may be too high, try abstracting.
+      * Interpreter calls: (File) (System) (Paths) (Path) (Writer) (Throwable) (DocumentBuilderFactory) (DocumentBuilder) (Document) (Node) (DataPackage) (Map) (MetricData) (Float) (FileData) (TypeData) (TransformerFactory) (Transformer) (DateFormat) (PrintStream) (Desktop) (TransformerException) (String) (MethodData) (BufferedWriter) (OutputStreamWriter) (FileOutputStream) (DOMSource) (SimpleDateFormat) (Date) (StreamResult) 
+      * Is called by: (Controller) (GUI) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>getFileData</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>setFileData</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Controller.java - line 108) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>checkXSL</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Interpreter.java - line 158) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>11.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>6.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>23.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>report</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class GUI.java - line 43) (Class GUI.java - line 133) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>132.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>14.0</Value>
+                  <Recommendation>Detected: Very high program complexity exceeding 10
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>126.0</Value>
+                  <Recommendation>Detected: Method is doing too much with lines exceeding 100
+      * Recommendation: Try to reduce method size by creating helper methods and removing copy pasted code</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>consoleReport</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Interpreter.java - line 307) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>31.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>11.0</Value>
+                  <Recommendation>Detected: Very high program complexity exceeding 10
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>40.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+  </Files>
+</Report>

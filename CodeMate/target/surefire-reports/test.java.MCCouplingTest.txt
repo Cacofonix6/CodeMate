@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: test.java.MCCouplingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.484 sec <<< FAILURE! - in test.java.MCCouplingTest
+testCouplingTestCustom()  Time elapsed: 0.484 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.eclipse.core.runtime.SubMonitor.split(I)Lorg/eclipse/core/runtime/SubMonitor;
+	at test.java.MCCouplingTest.testCouplingTestCustom(MCCouplingTest.java:26)
+

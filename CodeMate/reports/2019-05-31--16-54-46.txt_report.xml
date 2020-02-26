@@ -1,0 +1,4664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/stylesheet.xsl"?><Report>
+  <Files>
+    <File>
+      <Name>CouplingTestCustom.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>41.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>CouplingTest</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>4.0</Value>
+              <Recommendation>
+      * CouplingTest calls: (MetricData) (MethodData) (FileData) 
+      * Is called by: (CouplingTest2) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>main</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>7.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>start</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class CouplingTestCustom.java - line 19) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>CouplingTest2</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * CouplingTest2 calls: (CouplingTest) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>testing</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>35.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>10.0</Value>
+                  <Recommendation>Detected: High program complexity exceeding 7
+      * Recommendation: Try to reduce number of decision points in your program</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>12.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>37.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>11.0</Value>
+                  <Recommendation>Detected: Very high program complexity exceeding 10
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>13.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>45.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>15.0</Value>
+                  <Recommendation>Detected: Maximum value for program complexity of 15 reached or exceeded
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>17.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>55.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>20.0</Value>
+                  <Recommendation>Detected: Maximum value for program complexity of 15 reached or exceeded
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>22.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>57.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>21.0</Value>
+                  <Recommendation>Detected: Maximum value for program complexity of 15 exceeded by far
+      * Recommendation: Reject module or severely reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>23.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>29.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>7.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>9.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>31.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>8.0</Value>
+                  <Recommendation>Detected: High program complexity exceeding 7
+      * Recommendation: Try to reduce number of decision points in your program</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>10.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>64.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>9.0</Value>
+                  <Recommendation>Detected: High program complexity exceeding 7
+      * Recommendation: Try to reduce number of decision points in your program</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>33.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>25.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>8.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>19.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>6.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>17.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>11.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>23.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>7.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>cyclomaticFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>controlFunc</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>70.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>example</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>9.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>12.0</Value>
+                  <Recommendation>Detected: Very high program complexity exceeding 10
+      * Recommendation: Reduce number of decision points in your program by removing unnecessary conditional and loop expressions</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>37.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>2.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>NestingTest.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>47.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>DepthOfConditionalNestingTest</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * DepthOfConditionalNestingTest calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>testDepth1</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>13.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>3.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>testDepth2</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>6.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>18.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>Detected: Nested if statements in this method exceed 3. Refactor code to reduce nesting if statements</Recommendation>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>13.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>Detected Code Smell: Change Preventer - Method is called most and tightly coupled to rest of design. Changes will break most other locations in program
+      * Recommendation: Consider merging class of this method with classes calling it most if not same class already, as they might implement a single responsibility
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>13.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>29.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>15.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>15.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>16.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>17.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>5.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>17.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>A</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>B.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>19.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>B</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * B calls: (A) 
+      * Is called by: (C) (A) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>B</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 15) (Class A.java - line 13) (Class A.java - line 14) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>C.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>21.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>C</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * C calls: (A) (B) 
+      * Is called by: (A) (B) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>C</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcC</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncC</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 19) (Class B.java - line 19) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>21.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: (B) (C) 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>A</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>B.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>21.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>B</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * B calls: (A) (C) 
+      * Is called by: (C) (A) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>B</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 15) (Class A.java - line 13) (Class A.java - line 14) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>C.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>21.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>C</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * C calls: (A) (B) 
+      * Is called by: (A) (B) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>C</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcC</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncC</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 19) (Class B.java - line 19) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>13.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>B.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>21.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>B</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * B calls: (A) 
+      * Is called by: (C) (A) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>B</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class B.java - line 19) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 15) (Class A.java - line 13) (Class A.java - line 14) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>13.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>14.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>2.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>13.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>B.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>B</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * B calls: (A) 
+      * Is called by: (C) (A) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>B</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 15) (Class A.java - line 13) (Class A.java - line 14) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>A.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>A</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * A calls: (B) 
+      * Is called by: (B) (C) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>A</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>37.0</Value>
+                  <Recommendation>
+      * Is called by: (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class A.java - line 17) (Class A.java - line 18) (Class A.java - line 19) (Class A.java - line 20) (Class A.java - line 21) (Class A.java - line 23) (Class A.java - line 24) (Class A.java - line 25) (Class A.java - line 26) (Class A.java - line 27) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 11) (Class A.java - line 12) (Class A.java - line 13) (Class A.java - line 14) (Class A.java - line 15) (Class B.java - line 13) (Class C.java - line 18) (Class B.java - line 15) (Class C.java - line 14) (Class A.java - line 11) (Class B.java - line 17) (Class B.java - line 18) (Class A.java - line 11) (Class A.java - line 11) (Class A.java - line 12) (Class B.java - line 13) (Class B.java - line 13) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncA</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>6.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 18) (Class A.java - line 7) (Class B.java - line 17) (Class B.java - line 18) (Class B.java - line 17) (Class B.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>B.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>20.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>B</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>2.0</Value>
+              <Recommendation>
+      * B calls: (A) 
+      * Is called by: (C) (A) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>B</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>funcB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>4.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 15) (Class A.java - line 13) (Class A.java - line 14) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>otherFuncB</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>2.0</Value>
+                  <Recommendation>
+      * Is called by: (Class C.java - line 19) (Class A.java - line 18) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>FanOutTestCustom.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>44.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>FanOutTest</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>4.0</Value>
+              <Recommendation>
+      * FanOutTest calls: (MetricData) (MethodData) (FileData) 
+      * Is called by: (FanOutTest2) </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>main</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>8.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>start</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class FanOutTestCustom.java - line 20) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>FanOutTest2</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * FanOutTest2 calls: (FanOutTest) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>testing</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>8.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>9.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * Foo calls: (PrintStream) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>117.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * Foo calls: (PrintStream) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>100.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>100.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>1107.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * Foo calls: (PrintStream) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>1000.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>1000.0</Value>
+                  <Recommendation>Detected: Method is doing too much with lines exceeding 100
+      * Recommendation: Try to reduce method size by creating helper methods and removing copy pasted code</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>119.0</Value>
+          <Recommendation>Prorgram size is above the average of 49.38 lines in the file.</Recommendation>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>1.0</Value>
+              <Recommendation>
+      * Foo calls: (PrintStream) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>101.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>101.0</Value>
+                  <Recommendation>Detected: Method is doing too much with lines exceeding 100
+      * Recommendation: Try to reduce method size by creating helper methods and removing copy pasted code</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>7.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>7.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>7.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>10.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>7.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>11.0</Value>
+                  <Recommendation>Detected: Parameter list is too long with parameters exceeding 10
+      * Recommendation: Try to create new objects to wrap and group parameters together</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+    <File>
+      <Name>Foo.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>1.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>9.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Foo</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>0.0</Value>
+              <Recommendation>
+      * Foo calls: 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>func</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>30.0</Value>
+                  <Recommendation>Detected: Parameter list is too long with parameters exceeding 10
+      * Recommendation: Try to create new objects to wrap and group parameters together</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>0.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+  </Files>
+</Report>

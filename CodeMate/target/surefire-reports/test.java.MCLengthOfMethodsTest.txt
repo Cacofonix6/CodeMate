@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.java.MCLengthOfMethodsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in test.java.MCLengthOfMethodsTest
+testGuiMethod()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.eclipse.core.runtime.SubMonitor.split(I)Lorg/eclipse/core/runtime/SubMonitor;
+	at test.java.MCLengthOfMethodsTest.testGuiMethod(MCLengthOfMethodsTest.java:30)
+
+testParserMethod()  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.eclipse.core.runtime.SubMonitor.split(I)Lorg/eclipse/core/runtime/SubMonitor;
+	at test.java.MCLengthOfMethodsTest.testParserMethod(MCLengthOfMethodsTest.java:74)
+

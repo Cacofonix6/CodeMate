@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: test.java.MCFanOutTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in test.java.MCFanOutTest
+testFanOutTestCustom()  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.eclipse.core.runtime.SubMonitor.split(I)Lorg/eclipse/core/runtime/SubMonitor;
+	at test.java.MCFanOutTest.testFanOutTestCustom(MCFanOutTest.java:26)
+

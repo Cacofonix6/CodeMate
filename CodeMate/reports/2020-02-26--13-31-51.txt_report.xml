@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/stylesheet.xsl"?><Report>
+  <Files>
+    <File>
+      <Name>Controller.java</Name>
+      <Metrics>
+        <Metric>
+          <Name>Number Methods</Name>
+          <Value>3.0</Value>
+        </Metric>
+        <Metric>
+          <Name>Program Size</Name>
+          <Value>145.0</Value>
+        </Metric>
+      </Metrics>
+      <Types>
+        <Type>
+          <TypeType>Class</TypeType>
+          <TypeName>Controller</TypeName>
+          <Metrics>
+            <Metric>
+              <Name>Coupling</Name>
+              <Value>27.0</Value>
+              <Recommendation>
+      * Coupling may be too high, try abstracting.
+      * Controller calls: (String) (Utility) (File) (ParserWrapper) (GUI) (List&lt;FileData&gt;) (Set&lt;URL&gt;) (ClasspathHelper) (Reflections) (ConfigurationBuilder) (List&lt;MetricCalculator&gt;) (Class&lt;&gt;) (Throwable) (Collections) (MetricCalculator) (Interpreter) (CompilationUnit) (FileData) (ASTNode) (AbstractTypeDeclaration) (TypeDeclaration) (MethodDeclaration) (TypeData) (ArrayList&lt;&gt;) (HashSet&lt;&gt;) (SubTypesScanner) (MethodData) 
+      * Is called by: </Recommendation>
+            </Metric>
+          </Metrics>
+          <Methods>
+            <Method>
+              <MethodName>beginAnalysis</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>0.0</Value>
+                  <Recommendation>Detected Code Smell: Dispensable Dead Code - Method is never called and loosely coupled to rest of design
+      * Recommendation: Remove method</Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>12.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>3.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>28.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>1.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>calculateMetrics</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Controller.java - line 67) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>12.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>2.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>23.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+            <Method>
+              <MethodName>populateFileData</MethodName>
+              <Metrics>
+                <Metric>
+                  <Name>Method Fan In</Name>
+                  <Value>1.0</Value>
+                  <Recommendation>
+      * Is called by: (Class Controller.java - line 66) </Recommendation>
+                </Metric>
+                <Metric>
+                  <Name>Fan Out</Name>
+                  <Value>20.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Cyclomatic Complexity</Name>
+                  <Value>4.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Parameter List</Name>
+                  <Value>1.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Length of Method</Name>
+                  <Value>21.0</Value>
+                </Metric>
+                <Metric>
+                  <Name>Depth Of Conditional Nesting</Name>
+                  <Value>0.0</Value>
+                </Metric>
+              </Metrics>
+            </Method>
+          </Methods>
+        </Type>
+      </Types>
+    </File>
+  </Files>
+</Report>
